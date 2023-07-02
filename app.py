@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 from langchain.memory import ConversationBufferMemory
 
-GOOGLE_API_KEY = apikey
+os.environ['GOOGLE_API_KEY'] = st.secrets['apikey']
 
 # APP FRAMEWORK
 st.title("🏕️Travel Advisor✈️")
