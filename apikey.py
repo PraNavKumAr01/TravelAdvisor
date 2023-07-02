@@ -1,1 +1,0 @@
-apikey = 'AIzaSyC9L2qLCTWBeQ9J2odAMz-yjXq3DzP6oOg'
