@@ -2,9 +2,9 @@
 
 Have you ever felt like planning a trip was a hassle? Finding the right places to visit? looking for the best hotels near these places? And getting the cheapest flights to that place?
 
-Well then, TripAdvisor is here to make your life easier.
+Well then, TravelAdvisor is here to make your life easier.
 
-With just two words, you can get your whole trip planned, All trip advisor needs is the place you want to vist and the place you will be travelling from
+With just two words, you can get your whole trip planned, All travel advisor needs is the place you want to vist and the place you will be travelling from
 
 IT DOES EVERYTHING ELSE ON ITS OWN.
 
@@ -38,6 +38,6 @@ Its going to show you the cheapest flights to the nearest airports of those hote
 
 <h3>How much easier was this to just get everything at your fingertips with just two words</h3>
 
-<h2>Thats how TripAdvisor makes your travelling fun and hassle free!!</h2>
+<h2>Thats how TravelAdvisor makes your travelling fun and hassle free!!</h2>
 
 
