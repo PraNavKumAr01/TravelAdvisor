@@ -1,0 +1,6 @@
+streamlit
+os
+langchain
+chromadb
+t5
+google.generativeai
