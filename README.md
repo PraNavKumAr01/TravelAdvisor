@@ -1,5 +1,9 @@
 # TravelAdvisor
 
+TO CHECK OUT THE DEPLOYED APP
+
+[CLICK HERE](https://traveladvisor.streamlit.app/)
+
 Have you ever felt like planning a trip was a hassle? Finding the right places to visit? looking for the best hotels near these places? And getting the cheapest flights to that place?
 
 Well then, TravelAdvisor is here to make your life easier.
@@ -39,5 +43,3 @@ Its going to show you the cheapest flights to the nearest airports of those hote
 <h3>How much easier was this to just get everything at your fingertips with just two words</h3>
 
 <h2>Thats how TravelAdvisor makes your travelling fun and hassle free!!</h2>
-
-
