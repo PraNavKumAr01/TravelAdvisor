@@ -36,7 +36,7 @@ Its going to show you the cheapest flights to the nearest airports of those hote
 ![TA1](https://github.com/PraNavKumAr01/TravelAdvisor/assets/96071514/fc1c1ea1-8a4b-4115-b036-56140918fde4)
 
 
-How much easier was this to just get everything at your fingertips with just two words
-Thats how TripAdvisor makes your travelling fun and hassle free!!
+#How much easier was this to just get everything at your fingertips with just two words
+#Thats how TripAdvisor makes your travelling fun and hassle free!!
 
 
