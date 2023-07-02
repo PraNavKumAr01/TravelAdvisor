@@ -1,6 +1,4 @@
 import os
-from apikey import apikey
-
 import streamlit as st
 from langchain.llms import GooglePalm
 from langchain.prompts import PromptTemplate
