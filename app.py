@@ -11,6 +11,7 @@ os.environ['GOOGLE_API_KEY'] = st.secrets['apikey']
 st.title("🏕️Travel Advisor✈️")
 prompt = st.text_input("AHOY!! WHERE IS YOUR NEXT ADVENTURE GONNA BE?")
 place = st.text_input("Where are you staying or traveling from?")
+button = st.button('Plan My Trip')
 
 # DEFINE PROMPT TEMPLATES
 title_template = PromptTemplate(
@@ -50,22 +51,24 @@ flight_chain = LLMChain(llm = llm, prompt = flight_template, verbose = True, out
 sequential_chain = SequentialChain(chains = [title_chain,name_chain,hotel_chain,flight_chain], input_variables = ['topic','place'], output_variables = ['title','names','hotels','flights'], verbose = True)
 
 
-if prompt and place:
+if button:
 
-    # RUN SEQUENTIAL CHAIN
-    response = sequential_chain({'topic' : prompt, 'place' : place})
+    if prompt and place:
 
-    # PRINT RESULTS
-    st.write(response['names'])
-    st.markdown("---")
-    st.write(response['hotels'])
-    st.markdown("---")
-    st.write(response['flights'])
-    st.markdown("---")
+        # RUN SEQUENTIAL CHAIN
+        response = sequential_chain({'topic' : prompt, 'place' : place})
 
-    #EXPANDER FOR DISPLAYING MEMORY
-    with st.expander('Message History'):
-        st.info(memory.buffer)
+        # PRINT RESULTS
+        st.write(response['names'])
+        st.markdown("---")
+        st.write(response['hotels'])
+        st.markdown("---")
+        st.write(response['flights'])
+        st.markdown("---")
+
+        #EXPANDER FOR DISPLAYING MEMORY
+        with st.expander('Message History'):
+            st.info(memory.buffer)
 
 st.divider()
 st.caption('THIS IS JUST AN _EDUCATIONAL_ _PROJECT_!!')
