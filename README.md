@@ -14,6 +14,8 @@ IT DOES EVERYTHING ELSE ON ITS OWN.
 
 Starting out it asks your the place you want to travel to and the place you will be travelling from
 
+(NOTE : The api still doesnt have the support for various languages and might not work for every place you enter)
+
 
 ![TA4](https://github.com/PraNavKumAr01/TravelAdvisor/assets/96071514/93fbae46-9b8d-4654-9910-829af0ae00aa)
 
