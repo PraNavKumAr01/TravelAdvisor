@@ -1,11 +1,11 @@
 import os
 import streamlit as st
-from langchain.llms import GooglePalm
+from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 from langchain.memory import ConversationBufferMemory
 
-os.environ['GOOGLE_API_KEY'] = st.secrets['apikey']
+os.environ['GROQ_API_KEY'] = st.secrets['apikey']
 
 # APP FRAMEWORK
 st.title("🏕️Travel Advisor✈️")
@@ -39,7 +39,7 @@ flight_template = PromptTemplate(
 memory  = ConversationBufferMemory(input_key = 'topic', memory_key = 'chat_history')
 
 # CONNECT TO LLM
-llm = GooglePalm(temperature = 0.9)
+llm = ChatGroq(temperature = 0.9, model_name = "llama3-8b-8192")
 
 # CREATE LLM CHAINS
 title_chain = LLMChain(llm = llm, prompt = title_template, verbose = True, output_key = 'title', memory = memory)
